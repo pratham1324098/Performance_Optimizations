@@ -1,0 +1,104 @@
+129 [3048] INFO perfrun.launcher <> - Launcher main begin
+137 [3048] INFO perfrun.launcher <> - MessageCatalogInit finished
+137 [3048] INFO perfrun.launcher <> - Launcher instance created
+137 [3048] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 904 --option-file C:\Users\DELL\Desktop\Performance\Loop Interchange\Loop Interchange\r003hs\config\runss.options 
+164 [3048] INFO perfrun.launcher <> - New signal handler callback was added
+245 [3048] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+246 [3048] INFO perfrun.launcher <> - create file finder object
+246 [3048] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\DELL\Desktop\Performance\Loop Interchange\Loop Interchange\r003hs pid = 4294967295
+254 [3048] INFO perfrun.launcher <> - create data directory = C:\Users\DELL\Desktop\Performance\Loop Interchange\Loop Interchange\r003hs\data.0
+256 [3048] INFO perfrun.launcher <> - Creating the master collection flag
+266 [3048] INFO perfrun.launcher <> - Done creating the master collection flag
+267 [17260] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+268 [17260] INFO perfrun.sdk <> - Allocating TMU :C:\Users\DELL\Desktop\Performance\Loop Interchange\Loop Interchange\r003hs\data.0\systemcollector-15844-DESKTOP-O1N35BA.sc
+269 [17260] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+273 [17260] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+273 [17260] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+273 [17260] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+273 [17260] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+273 [17260] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+273 [17260] INFO perfrun.mrte <> - system-wide mode is 0
+274 [17260] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+305 [17260] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\DELL\Desktop\Performance\Loop Interchange\Loop Interchange\r003hs\data.0
+305 [17260] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=DESKTOP-O1N35BA
+305 [17260] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_tpssmrte_javaprof_1.0
+305 [17260] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files\MongoDB\Tools\100\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\CMake\bin;D:\Windows Kits\10\Windows Performance Toolkit\;C:\Users\DELL\scoop\shims;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\DELL\AppData\Local\Programs\Python\Python312\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.4\bin;;C:\Program Files\CMake\bin;C:\Program Files (x86)\CMake\bin;C:\Users\DELL\Desktop\Soundtouch\soundtouch\bin;C:\MinGW\bin;
+305 [17260] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+305 [17260] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+305 [17260] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+305 [17260] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+305 [17260] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+305 [17260] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+305 [17260] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+305 [17260] INFO perfrun.mrte <> - Data directory: C:\Users\DELL\Desktop\Performance\Loop Interchange\Loop Interchange\r003hs\data.0
+305 [17260] INFO perfrun.mrte <> - Mrte plugin is initialized
+305 [17260] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.tpss <> - initialize tpss controller
+306 [17260] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+306 [17260] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+306 [17260] INFO perfrun.tpss <> - default obj-size-min=1024
+306 [17260] INFO perfrun.tpss <> - default hash-table-size=0
+306 [17260] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+306 [17260] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+306 [3048] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files\MongoDB\Tools\100\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\CMake\bin;D:\Windows Kits\10\Windows Performance Toolkit\;C:\Users\DELL\scoop\shims;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\DELL\AppData\Local\Programs\Python\Python312\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.4\bin;;C:\Program Files\CMake\bin;C:\Program Files (x86)\CMake\bin;C:\Users\DELL\Desktop\Soundtouch\soundtouch\bin;C:\MinGW\bin;
+306 [3048] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\runtime\ittnotify_collector.dll
+306 [3048] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\runtime\ittnotify_collector.dll
+306 [3048] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+307 [3048] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\runtime\ittnotify_collector.dll
+307 [3048] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\runtime\ittnotify_collector.dll
+307 [3048] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+307 [3048] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+307 [3048] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+307 [3048] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+307 [3048] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\DELL\Desktop\Performance\Loop Interchange\Loop Interchange\r003hs\data.0
+307 [3048] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = DESKTOP-O1N35BA
+307 [3048] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_tpssmrte_javaprof_1.0
+307 [3048] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files\MongoDB\Tools\100\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\CMake\bin;D:\Windows Kits\10\Windows Performance Toolkit\;C:\Users\DELL\scoop\shims;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\DELL\AppData\Local\Programs\Python\Python312\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.4\bin;;C:\Program Files\CMake\bin;C:\Program Files (x86)\CMake\bin;C:\Users\DELL\Desktop\Soundtouch\soundtouch\bin;C:\MinGW\bin;
+307 [3048] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+307 [3048] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+307 [3048] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+307 [3048] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+307 [3048] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+307 [3048] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+307 [3048] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+307 [3048] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+315 [3048] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\DELL\Desktop\Performance\Loop Interchange\Optimized_Matrix_mul.exe' is valid.
+315 [3048] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\DELL\Desktop\Performance\Loop Interchange\Optimized_Matrix_mul.exe
+319 [3048] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\pin.exe -error_file C:\Users\DELL\Desktop\Performance\Loop Interchange\Loop Interchange\r003hs\data.0\pinerr.tpsslog -detach_reattach -probe -follow_execv -p32 C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\pin.exe -p64 C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\pin.exe -t64 C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\tpsstool.dll -t C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\tpsstool.dll -server_name tpss_ipc.15844 -prd_dir C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1 -- C:\Users\DELL\Desktop\Performance\Loop Interchange\Optimized_Matrix_mul.exe
+319 [3048] INFO perfrun.launcher <> - ProcessCreator object was created
+323 [3048] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+324 [17260] INFO perfrun.itt <> - start itt controller for pid #6008
+324 [17260] INFO perfrun.tpss <> - start tpss controller for pid #6008
+390 [3048] INFO perfrun.launcher <> - Launcher: all plugins were started
+390 [3048] INFO perfrun.launcher <> - DirectoryMonitor object was created
+390 [3048] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+390 [3048] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+390 [3048] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+390 [3048] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+401 [3048] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+844 [3048] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+899 [17260] INFO perfrun.itt <> - detach itt controller
+899 [17260] INFO perfrun.itt <> - detach itt controller done
+899 [17260] INFO perfrun.tpss <> - stop tpss controller
+900 [17260] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\DELL\Desktop\Performance\Loop Interchange\Loop Interchange\r003hs\data.0\systemcollector-15844-DESKTOP-O1N35BA.sc
+922 [17260] INFO perfrun.system <> - closed the system trace file: C:\Users\DELL\Desktop\Performance\Loop Interchange\Loop Interchange\r003hs\data.0\systemcollector-15844-DESKTOP-O1N35BA.sc
+923 [3048] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+923 [3048] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+923 [3048] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+923 [3048] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+923 [3048] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:226
+924 [3048] INFO perfrun.launcher <> - Application exit code: 0
+924 [3048] INFO perfrun.launcher <> - Exit code: 0
